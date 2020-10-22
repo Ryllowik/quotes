@@ -1,0 +1,103 @@
+.slick-dots li {
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quotation-marks {
+    height: 20px;
+}
+.quotes-carousel {
+    height: 540px;
+}
+.quote-cont-1 {
+    height: 320px;
+    margin-bottom: 10px;
+}
+.pwc-quote-1 {
+    height: max-content;
+}
+.quoteOwner {
+    position: relative;
+}
+.quoteOwner .dash {
+    height: 2px;
+    width: 30px;
+    margin-top: 10px;
+    background: #7d7d7d;
+}
+.pwc-quotes-dark {
+    background: #2d2d2d;
+}
+.pwc-quotes-dark p{
+    color: white
+}
+.pwc-quotes-dark .quoteOwner h5{
+    color: #dedede
+}
+.pwc-quotes-dark .quoteOwner h6{
+    color: #7d7d7d
+}
+.pwc-quotes-dark .slick-dots li button {
+    background: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    transition-duration: 0.5s;
+}
+.pwc-quotes-dark .slick-dots .slick-active button{
+    background: #dedede;
+}
+.pwc-quotes-light {
+    background: #dedede;
+}
+.pwc-quotes-light p{
+    color: #2d2d2d
+}
+.pwc-quotes-light .quoteOwner h5{
+    color: #2d2d2d
+}
+.pwc-quotes-light .quoteOwner h6{
+    color: #464646
+}
+.pwc-quotes-light .slick-dots li button {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    transition-duration: 0.5s;
+}
+.pwc-quotes-light .slick-dots .slick-active button{
+    background: #2d2d2d;
+}
+
+@media (max-width: 1024px){
+    .quote-cont-1 {
+        height: 400px;
+    }
+    .pwc-quote-1 {
+        max-height: 400px;
+        overflow-y: scroll;
+        margin: auto;
+    }
+    .quotes-carousel {
+        height: auto;
+    }
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .quotes-carousel {
+        height: auto;
+    }
+    .quote-cont-1 {
+        height: auto;
+    }
+}
+_:-ms-lang(x), _:-webkit-full-screen, .quotes-carousel {
+    height: auto;
+}
+_:-ms-lang(x), _:-webkit-full-screen, .quote-cont-1 {
+    height: auto;
+}
